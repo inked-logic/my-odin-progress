@@ -7,7 +7,7 @@ A simple website that displays the earned skills from THE ODIN PROJECT.
 ### Skills to be displayed in the project
 
 - HTML
-- Brutalist web design
+- Basic web design
 - Drawing design
 - Simple CSS
 
