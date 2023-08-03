@@ -2,7 +2,12 @@
   background-color: #ffa7a7;
   font-family: Verdana, DejaVu Sans, sans-serif;
 }
+
 #blue-text {
   color: rgb(0, 0, 255);
   font-size: 36px;
+}
+
+.cooler {
+  font-size: 24px;
 }
