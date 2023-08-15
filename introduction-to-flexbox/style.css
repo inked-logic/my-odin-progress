@@ -70,9 +70,41 @@
 
 .flex-item.bottom.middle {
   flex: 1;
-  margin: 8px 2px
+  margin: 8px 2px;
 }
 
 .flex-container-item.bottom.inner {
   margin: 0px;
+}
+
+.red {
+  background-color: rgb(250, 187, 187);
+  border: 4px solid darkred;
+}
+
+.flex-container-item.invisible {
+  height: 180px;
+  display: flex;
+}
+
+.flex-item.big {
+  flex: 1;
+  margin: 0px;
+}
+
+.flex-container-item.big.invisible {
+  margin: 0px;
+  display: block;
+}
+
+.flex-item.small {
+  height: 70px;
+}
+
+.flex-item.small.top {
+  margin: 0 0 8px 8px;
+}
+
+.flex-item.small.bottom {
+  margin: 8px 0 0 8px;
 }
