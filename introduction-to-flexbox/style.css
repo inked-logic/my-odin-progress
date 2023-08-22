@@ -1,0 +1,110 @@
+.flex-container {
+  /* display: flex; */
+  background-color: rgb(204, 244, 189);
+  border: 4px solid green;
+}
+
+/* this selector selects all divs inside of .flex-container */
+.flex-container-item {
+  /* background: lightblue;
+  border: 4px solid blue; */
+  /* height: 100px; */
+  flex: 1;
+  margin: 15px;
+  display: flex;
+}
+
+.flex-container-item.bottom.outer {
+  height: 80px;
+}
+
+.flex-container-item.outer {
+  background: lightblue;
+  border: 4px solid blue;
+  height: 100px;
+}
+
+.flex-item {
+  background-color: #fcdab9;
+  border: 4px solid #ff7564;
+  flex: 1;
+  margin: 20px;
+  display: flex;
+  padding: 4px;
+}
+
+.flex-item-inner {
+  flex: 1;
+  background-color: #fac0cb;
+  border: 4px solid red;
+}
+
+.flex-item.middle {
+  margin: 20px 0px;
+}
+
+.flex-item-inner {
+  flex: 1;
+  /* background-color: #fac0cb;
+  border: 4px solid red; */
+}
+
+.flex-item.bottom.outer {
+  background-color: rgb(226, 222, 255);
+  border: 4px solid rgb(106, 91, 205);
+}
+
+.flex-item.bottom.outer.left {
+  margin: 8px 3px 8px 8px;
+}
+
+.flex-item.bottom.outer.right {
+  margin: 8px 8px 8px 3px;
+}
+
+.flex-container-item.bottom.inner {
+  /* border: 5px solid black; */
+  /* flex: 1; */
+  display: flex;
+}
+
+.flex-item.bottom.middle {
+  flex: 1;
+  margin: 8px 2px;
+}
+
+.flex-container-item.bottom.inner {
+  margin: 0px;
+}
+
+.red {
+  background-color: rgb(250, 187, 187);
+  border: 4px solid darkred;
+}
+
+.flex-container-item.invisible {
+  height: 180px;
+  display: flex;
+}
+
+.flex-item.big {
+  flex: 1;
+  margin: 0px;
+}
+
+.flex-container-item.big.invisible {
+  margin: 0px;
+  display: block;
+}
+
+.flex-item.small {
+  height: 70px;
+}
+
+.flex-item.small.top {
+  margin: 0 0 8px 8px;
+}
+
+.flex-item.small.bottom {
+  margin: 8px 0 0 8px;
+}
