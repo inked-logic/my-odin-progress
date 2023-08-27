@@ -89,3 +89,35 @@ img {
   text-align: center;
 }
 
+.container-information {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 120px;
+}
+
+.container-card {
+  display: flex;
+  gap: 48px;
+}
+
+.container-information h2 {
+  font-size: 36px;
+  font-weight: extra-bold;
+  color: #1f2937;
+  margin: 40px;
+}
+
+.container-card img {
+  width: 150px;
+  height: 150px;
+  border: 5px solid #3882F6;
+  border-radius: 18px;
+}
+
+.container-card p {
+  color: #6D747D;
+  width: 150px;
+  text-align: center;
+}
+
