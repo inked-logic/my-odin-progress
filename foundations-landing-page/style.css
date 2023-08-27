@@ -177,3 +177,15 @@ cite {
 .container-signup p {
   color: #E5E7EB;
 }
+
+footer {
+  background-color: #1f2937;
+  text-align: center;
+  color: #e5e7eb;
+  padding: 36px 0;
+}
+
+.copyright {
+  color: #abb1b8;
+  padding: 0 5px;
+}
