@@ -30,14 +30,16 @@ footer {
   font-weight: extra-bold;
 }
 
-header button {
+button {
   background-color: #3882F6;
   border-radius: 8px;
   border-style: none;
   width: 120px;
   padding: 5px;
   margin-top: 8px;
+  font-size: 16px;
   font-weight: 600;
+  cursor: pointer;
 }
 
 header {
@@ -60,11 +62,17 @@ ul {
   gap: 16px;
 }
 
+a {
+  text-decoration: none;
+  color: #f9faf8;
+}
+
 .header-main {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding-bottom: 120px;
+  padding-bottom: 140px;
+  padding-top: 20px;
 }
 
 .main-text {
@@ -121,3 +129,51 @@ img {
   text-align: center;
 }
 
+.container-cite {
+  background-color: #E5E7EB;
+  display: flex;
+  justify-content: center;
+  padding: 130px 0;
+}
+
+.citation {
+  width: 790px;
+  display: flex;
+  flex-direction: column;
+}
+
+cite {
+  font-size: 36px;
+  font-style: italic;
+  font-weight: 300;
+  color: #1f2937
+}
+
+.container-cite p {
+  font-weight: bold;
+  align-self: flex-end;
+  margin-right: 40px;
+}
+
+.container-signup {
+  background-color: #3882F6;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 90px 160px;
+  padding: 50px 120px;
+  border-radius: 10px;
+}
+
+.container-signup button {
+  color: #f9faf8;
+  border: 3px solid #f9faf8;
+}
+
+.container-signup h2 {
+  color: #f9faf8;
+}
+
+.container-signup p {
+  color: #E5E7EB;
+}
