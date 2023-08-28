@@ -19,7 +19,9 @@ footer {
   font-size: 24px;
 }
 
-.navigation-links, .main-subtext, header button {
+.navigation-links,
+.main-subtext,
+header button {
   color: #e5e7eb;
   font-size: 18px;
 }
@@ -31,7 +33,7 @@ footer {
 }
 
 button {
-  background-color: #3882F6;
+  background-color: #3882f6;
   border-radius: 8px;
   border-style: none;
   width: 120px;
@@ -53,13 +55,13 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding-top: 10px;
+  padding-top: 22px;
 }
 
 ul {
   display: flex;
   list-style-type: none;
-  gap: 16px;
+  gap: 47px;
 }
 
 a {
@@ -84,7 +86,7 @@ a {
 }
 
 .placeholder-image {
-  background-color: #6D747D;
+  background-color: #6d747d;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -119,18 +121,18 @@ img {
 .container-card img {
   width: 150px;
   height: 150px;
-  border: 5px solid #3882F6;
+  border: 5px solid #3882f6;
   border-radius: 18px;
 }
 
 .container-card p {
-  color: #6D747D;
+  color: #6d747d;
   width: 150px;
   text-align: center;
 }
 
 .container-cite {
-  background-color: #E5E7EB;
+  background-color: #e5e7eb;
   display: flex;
   justify-content: center;
   padding: 130px 0;
@@ -146,7 +148,7 @@ cite {
   font-size: 36px;
   font-style: italic;
   font-weight: 300;
-  color: #1f2937
+  color: #1f2937;
 }
 
 .container-cite p {
@@ -156,7 +158,7 @@ cite {
 }
 
 .container-signup {
-  background-color: #3882F6;
+  background-color: #3882f6;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -175,7 +177,7 @@ cite {
 }
 
 .container-signup p {
-  color: #E5E7EB;
+  color: #e5e7eb;
 }
 
 footer {
