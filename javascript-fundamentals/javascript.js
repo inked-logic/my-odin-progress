@@ -21,3 +21,11 @@ function capitalize(something) {
 }
 
 console.log(capitalize("inked Logic"));
+
+// The fourth assignment
+
+function lastLetter(whatever) {
+  return whatever.charAt(whatever.length - 1);
+}
+
+console.log(lastLetter("Inked Logic"));
