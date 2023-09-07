@@ -75,7 +75,7 @@ function playRound() {
 function getRoundWinner(winner, userChoice, computerChoice) {
   switch (winner) {
     case "user": return `You won! ${userChoice} beats ${computerChoice}`
-    case "computer": return `You won! ${computerChoice} beats ${userChoice}`
+    case "computer": return `Computer won! ${computerChoice} beats ${userChoice}`
     case "draw": return "It's a draw!"
   }
 }
