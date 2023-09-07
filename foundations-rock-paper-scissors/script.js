@@ -1,7 +1,14 @@
 // rock-paper-scissors
 
+// declaring a global counters
+
+let roundCounter = 0;
+let userScoreCount = 0;
+let computerScoreCount = 0;
+
 // ask the user for a string as an input, must be one of the three possible choices (rock, paper, scissors)
 // check if the input is correctly formatted
+
 function getUserInput() {
   return prompt(
     "Please pick a choice from the following options:\nrock, paper or scissors."
@@ -69,23 +76,41 @@ function playRound() {
   let computerChoice = getComputerChoice();
   let winner = getWinner(userChoice, computerChoice);
   return getRoundWinner(winner, userChoice, computerChoice);
-
 }
 
 function getRoundWinner(winner, userChoice, computerChoice) {
+  roundCounter++;
   switch (winner) {
-    case "user": return `You won! ${userChoice} beats ${computerChoice}`
-    case "computer": return `Computer won! ${computerChoice} beats ${userChoice}`
-    case "draw": return "It's a draw!"
+    case "user":
+      userScoreCount++;
+      return `You won! ${userChoice} beats ${computerChoice} // User: ${userScoreCount} - ${computerScoreCount} :Computer`;
+    case "computer":
+      computerScoreCount++;
+      return `Computer won! ${computerChoice} beats ${userChoice} // User: ${userScoreCount} - ${computerScoreCount} :Computer`;
+    case "draw":
+      userScoreCount++;
+      computerScoreCount++;
+      return `It's a draw! Score: User: ${userScoreCount} - ${computerScoreCount} :Computer`;
   }
 }
 
 // play a total of 5 rounds while keeping counting the number of rounds won by each player
 
-function game(){
+function game() {
+  let overallWinner;
   for (let i = 0; i < 5; i++) {
     console.log(playRound());
-  } 
+  }
+  if (userScoreCount > computerScoreCount) {
+    overallWinner = "You won!";
+  } else if (computerScoreCount > userScoreCount) {
+    overallWinner = "Computer won!";
+  } else {
+    overallWinner = "It's a draw!";
+  }
+  console.log(
+    `Game finished! ${overallWinner} User: ${userScoreCount} - ${computerScoreCount} :Computer`
+  );
 }
 
 // display the results
